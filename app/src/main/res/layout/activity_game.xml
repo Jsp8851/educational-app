@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fypsolutions.alphalearn.GameActivity"
+    android:gravity="center"
+    android:background="@drawable/bgclipart"
+    >
+
+    <TableRow
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/berkshire_swash"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="A"
+            android:textSize="@dimen/alphabet_size"
+            android:onClick="onTVClick"
+            android:textColor="@color/orchid"
+            />
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textSize="@dimen/alphabet_size"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:onClick="onTVClick"
+            android:textColor="@color/orchid"
+            />
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textSize="@dimen/alphabet_size"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:onClick="onTVClick"
+            android:textColor="@color/orchid"
+            />
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:textSize="@dimen/alphabet_size"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:onClick="onTVClick"
+            android:textColor="@color/orchid"
+            />
+        <TextView
+            android:id="@+id/tv_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="E"
+            android:textSize="@dimen/alphabet_size"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:onClick="onTVClick"
+            android:textColor="@color/orchid"
+            />
+        <TextView
+            android:id="@+id/tv_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:textSize="@dimen/alphabet_size"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:onClick="onTVClick"
+            android:textColor="@color/orchid"
+            />
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tv_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:textSize="@dimen/alphabet_size"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:onClick="onTVClick"
+            android:textColor="@color/orchid"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="H"
+            android:textSize="@dimen/alphabet_size"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:onClick="onTVClick"
+            android:textColor="@color/orchid"
+            />
+        <TextView
+            android:id="@+id/tv_9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="I"
+            android:textSize="@dimen/alphabet_size"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:onClick="onTVClick"
+            android:textColor="@color/orchid"
+            />
+
+    </TableRow>
+
+
+
+</TableLayout>
